@@ -20,7 +20,7 @@ class PdfSplicer {
                 // the last command line argument is the destination PDF
                 app.setDestination(args[i])
             } else if (args[i] == '-d') {
-                // the '-d' tag activates duplex mode
+                // the '-d' cmd tag activates duplex mode
                 app.setDuplexMode(true)
             } else {
                 // a source PDF
